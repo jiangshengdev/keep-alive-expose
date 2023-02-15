@@ -1,5 +1,5 @@
-<script setup lang="ts">
-import LayoutSidebar from '@/components/layout/LayoutAside.vue'
+<script lang="ts" setup>
+import LayoutAside from '@/components/layout/LayoutAside.vue'
 import LayoutMain from '@/components/layout/LayoutMain.vue'
 import LayoutHeader from '@/components/layout/LayoutHeader.vue'
 </script>
@@ -12,7 +12,7 @@ import LayoutHeader from '@/components/layout/LayoutHeader.vue'
       </el-header>
       <el-container>
         <el-aside width="200px">
-          <LayoutSidebar></LayoutSidebar>
+          <LayoutAside></LayoutAside>
         </el-aside>
         <el-main>
           <LayoutMain></LayoutMain>

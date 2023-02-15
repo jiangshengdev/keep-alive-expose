@@ -48,9 +48,9 @@ const handleTabsEdit = (targetName: string, action: 'remove' | 'add') => {
 <template>
   <el-tabs
     v-model="editableTabsValue"
-    type="card"
-    editable
     class="demo-tabs"
+    editable
+    type="card"
     @edit="handleTabsEdit"
   >
     <el-tab-pane
